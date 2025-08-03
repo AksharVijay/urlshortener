@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Auth from "@/pages/Auth";
 import Dashboard from "@/pages/Dashboard";
 import LandingPage from "@/pages/LandingPage";
@@ -11,6 +12,7 @@ const AppLayout = () => {
   return (
     <div>
       <main className="min-h-screen container px-4 max-w-7xl mx-auto">
+        <Header/>
         <>
           <Routes>
             <Route path="/" element={<LandingPage />} />
