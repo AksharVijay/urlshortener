@@ -10,7 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Link2, LogOut } from "lucide-react";
 
 const Header = () => {
@@ -38,13 +38,12 @@ const Header = () => {
               <DropdownMenuContent>
                 <DropdownMenuLabel>Akshar Vijay</DropdownMenuLabel>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem><Link2  className="mr-2 w-4 h-4" /> My Links</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link2 className="mr-2 w-4 h-4" /> My Links
+                </DropdownMenuItem>
                 <DropdownMenuItem className="text-red-600">
-                    <LogOut className="mr-2 w-4 h-4 text-red-500"/>
-                    <span>
-                    Logout
-                    </span>
-
+                  <LogOut className="mr-2 w-4 h-4 text-red-500" />
+                  <span>Logout</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

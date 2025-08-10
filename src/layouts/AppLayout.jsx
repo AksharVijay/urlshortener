@@ -7,12 +7,11 @@ import RedirectLink from "@/pages/RedirectLink";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-
 const AppLayout = () => {
   return (
     <div>
       <main className="min-h-screen container px-4 max-w-7xl mx-auto">
-        <Header/>
+        <Header />
         <>
           <Routes>
             <Route path="/" element={<LandingPage />} />
@@ -23,7 +22,7 @@ const AppLayout = () => {
           </Routes>
         </>
       </main>
-            <div className="p-10 text-center bg-gray-700 mt-10">
+      <div className="p-10 text-center bg-gray-700 mt-10">
         Made by Akshar Vijay
       </div>
     </div>
